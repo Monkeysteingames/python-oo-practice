@@ -4,6 +4,11 @@
 class SerialGenerator:
     """Machine to create unique incrementing serial numbers.
 
+    Attributes
+    ----------------
+    start: int
+        number that we want to start our serial number at
+
     >>> serial = SerialGenerator(start=100)
 
     >>> serial.generate()
